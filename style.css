@@ -4,17 +4,17 @@ body {
 }
 
 .navbar {
-  background: #0a2540;
+  background-color: #0b1f3a;
 }
 
 .navbar-brand,
 .nav-link {
-  color: white !important;
+  color: #ffffff !important;
 }
 
 .hero {
   height: 100vh;
-  background: linear-gradient(120deg, #0a2540, #1e3c72);
+  background: linear-gradient(135deg, #0b1f3a, #1f4f99);
   color: white;
   display: flex;
   align-items: center;
@@ -22,7 +22,7 @@ body {
 
 .hero h1 {
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .section {
@@ -32,12 +32,12 @@ body {
 .section-title {
   text-align: center;
   margin-bottom: 40px;
+  color: #0b1f3a;
   font-weight: bold;
-  color: #0a2540;
 }
 
 .skill-box {
-  background: #f1f5f9;
+  background: #eef2f7;
   padding: 15px;
   margin: 10px;
   border-radius: 8px;
@@ -47,21 +47,12 @@ body {
 .project-card {
   background: white;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  height: 100%;
 }
 
 .contact {
-  background: #0a2540;
+  background: #0b1f3a;
   color: white;
-}
-
-.contact a {
-  color: #aad8ff;
-  text-decoration: none;
 }
